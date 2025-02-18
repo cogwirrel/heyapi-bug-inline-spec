@@ -1,7 +1,7 @@
 {
   "name": "heyapi-bug",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
   "dependencies": {
     "@hey-api/openapi-ts": "^0.64.4"
   }

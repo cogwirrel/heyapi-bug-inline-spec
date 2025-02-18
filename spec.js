@@ -1,7 +1,5 @@
 
-const { createClient } = require('@hey-api/openapi-ts');
-
-const spec = {
+export const spec = {
   openapi: '3.0.3',
   info: {
     version: '1.0.0',
@@ -30,11 +28,3 @@ const spec = {
     },
   },
 };
-
-createClient({
-  input: spec,
-  output: 'out',
-  dryRun: true,
-  plugins: ['@hey-api/client-fetch'],
-});
-
